@@ -1,7 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo:
+      'Resultados y conclusiones cuantitativas sobre la analítica de datos',
+    descripcionCurso:
+      'Las organizaciones, en sus procesos del manejo de datos, deben incorporar herramientas como: la analítica de datos, los modelos matemáticos, las herramientas tecnológicas y la aplicación de la estadística en la <em>Big data</em>, con el fin de obtener resultados en la identificación de relaciones cuantitativas de los datos procesados y, asimismo, poder interpretar los patrones identificados y presentar los informes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -32,30 +38,31 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Analítica de datos: herramientas, algoritmos y modelos matemáticos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas tecnológicas',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Aplicación de la estadística',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Uso de tecnologías para el análisis de grandes volúmenes de datos',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +108,104 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Uso de tecnologías para el análisis de grandes volúmenes de datos',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022, 27 de junio). Técnicas para el análisis de datos [video]. Youtube.',
+      tipo: 'Artículo',
+      link: 'https://www.youtube.com/watch?v=pjTI4UOgkM8',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Uso de tecnologías para el análisis de grandes volúmenes de datos',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022, 5 de abril). Analítica de datos [video]. Youtube.',
+      tipo: 'Artículo',
+      link: 'https://www.youtube.com/watch?v=bXdteqmjs2o',
+    },
+    {
+      tema: 'Uso de tecnologías para el análisis de grandes volúmenes de datos',
+      referencia:
+        'Sánchez Bracho, M., et al., (2021). Técnicas e instrumentos de recolección de información: análisis y procesamiento realizado por el investigador cualitativo. UISRAEL Revista Científica, 8(1), 107-121.',
+      tipo: 'Artículo',
+      link: 'https://doi.org/10.35290/rcui.v8n1.2021.400',
+    },
+    {
+      tema: 'Uso de tecnologías para el análisis de grandes volúmenes de datos',
+      referencia:
+        'Hernández-Leal, et al. (2017). Big Data: una exploración de investigaciones, tecnologías y casos de aplicación. TecnoLógicas, 20(39), 17-24.',
+      tipo: 'Artículo',
+      link:
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0123-77992017000200002&lng=en&tlng=es',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Big data</em>',
+      significado:
+        'se refiere a los datos que incluyen gran variedad, se presentan en altos volúmenes y manejan una gran velocidad.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Código abierto',
+      significado:
+        'se utiliza con los principios de la cooperación entre pares y masiva, apuntando a un proceso para desarrollar un <em>software</em> sustentable para los usuarios finales. ',
+    },
+    {
+      termino: 'Código cerrado',
+      significado:
+        'el <em>software</em> de código cerrado (CSS) es un programa con patente o licencia, que es comercializado.',
+    },
+    {
+      termino: 'Corel',
+      significado:
+        'es una empresa que se dedica a producir y comercializar herramientas profesionales para ilustración vectorial, diseño de páginas, edición de fotografías, tipografía y colaboración.',
+    },
+    {
+      termino: 'Office 365',
+      significado:
+        'es un paquete de <em>software</em> que incluye las aplicaciones comunes de Office, como Word, Excel y PowerPoint; además de almacenamiento de archivos (<em>OneDrive</em>), colaboración (<em>SharePoint Online</em>) y comunicación (<em>Exchange Online</em>).',
+    },
+    {
+      termino: 'Plotly',
+      significado:
+        'es una librería disponible en varios lenguajes de programación, especialmente en Python, en Java, R, Julia, Matlab, entre otros. Se pueden realizar gráficos complejos.',
+    },
+    {
+      termino: 'Powerpoint',
+      significado:
+        'es un aplicativo de Microsoft Office para la realización de presentaciones. ',
+    },
+    {
+      termino: 'Star Office',
+      significado:
+        'es una suite integrada que incluye los aplicativos de procesamiento de textos, hojas de cálculo, presentaciones, dibujo vectorial y bases de datos.',
+    },
+    {
+      termino: 'Stata',
+      significado:
+        'es un <em>software</em> estadístico integrado, enfocado para el análisis de datos, gestión de datos y gráficos.',
+    },
+    {
+      termino: 'Word',
+      significado:
+        'es un aplicativo de Microsoft Office que funciona como procesador de textos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Camargo Vega, et al. (2015). Conociendo Big Data. Revista Facultad de Ingeniería, 24(38), 63-77.',
+      link:
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0121-11292015000100006&lng=en&tlng=es',
+    },
+    {
+      referencia:
+        'Martínez, R. (2017). Cuestiones de ética jurídica al abordar proyectos de Big Data. El contexto del Reglamento general de protección de datos. Dilemata, 24,  151-164.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6066833',
+    },
+    {
+      referencia:
+        'Microsoft Learn. (2022). Especificación de categorías de datos en Power BI Desktop.',
+      link:
+        'https://docs.microsoft.com/es-es/power-bi/transform-model/desktop-data-categorization',
     },
   ],
   creditos: {
