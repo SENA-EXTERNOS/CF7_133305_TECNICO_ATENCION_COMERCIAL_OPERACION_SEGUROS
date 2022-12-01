@@ -193,8 +193,6 @@ export default {
     {
       referencia:
         'Camargo Vega, et al. (2015). Conociendo Big Data. Revista Facultad de Ingeniería, 24(38), 63-77.',
-      link:
-        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0121-11292015000100006&lng=en&tlng=es',
     },
     {
       referencia:
