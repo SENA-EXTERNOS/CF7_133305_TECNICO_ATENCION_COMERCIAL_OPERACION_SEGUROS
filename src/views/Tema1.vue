@@ -80,14 +80,12 @@
         .py-md-5.p-4(titulo="Algoritmo" :icono="require('@/assets/curso/tema1/img04.svg')")
           .row.justify-content-center
             .col-lg-7.order-lg-1.order-2
-              .h4 Algoritmo
               p.mb-0 Un algoritmo es un procedimiento utilizado para resolver un problema o realizar un cálculo. Actúa como una lista exacta de instrucciones que realiza acciones específicas paso a paso, en rutinas basadas en #[em hardware] o #[em software]. Un algoritmo es diseñado independiente del idioma, es decir, las instrucciones pueden implementarse en cualquier idioma y, sin embargo, el resultado será el mismo.
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema1/img04.png")
         .py-md-5.p-4(titulo="Utilidad de los algoritmos" :icono="require('@/assets/curso/tema1/img05.svg')")
           .row.justify-content-center
             .col-lg-7.order-lg-1.order-2
-              .h4 Utilidad de los algoritmos
               p Sabiendo que los algoritmos son utilizados para solucionar problemas, a continuación, se presentan algunas de las funcionalidades que estos tienen en diferentes áreas:
               ul.lista-ul--color.mb-0
                 li
@@ -104,7 +102,6 @@
         .py-md-5.p-4(titulo="Ejemplo de un algoritmo" :icono="require('@/assets/curso/tema1/img06.svg')")
           .row.justify-content-center
             .col-lg-7.order-lg-1.order-2
-              .h4 Ejemplo de un algoritmo
               p Un claro ejemplo se puede representar en la forma de cocinar una nueva receta. 
               p.mb-0 Para cocinar una nueva receta, primero se deben leer las instrucciones. Esta receta está compuesta por una serie de pasos que deben ser ejecutados uno a uno, en su debido orden, para obtener el resultado deseado. Es, de esta manera, como está compuesto un algoritmo: una serie de funciones o instrucciones que se deben ir desarrollando paso a paso y, a su vez, se van ejecutando, con el fin de solucionar un problema.
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
@@ -112,7 +109,6 @@
         .py-md-5.p-4(titulo="Algoritmos en la TI" :icono="require('@/assets/curso/tema1/img07.svg')")
           .row.justify-content-center
             .col-lg-7.order-lg-1.order-2
-              .h4 Algoritmos en la TI
               p.mb-0 Los algoritmos se utilizan ampliamente en todas las áreas de TI. En matemáticas e informática, un algoritmo, generalmente, se refiere a un pequeño procedimiento que resuelve un problema recurrente. Los algoritmos también se utilizan como especificaciones para realizar el procesamiento de datos y juegan un papel importante en los sistemas automatizados.
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema1/img07.png")
@@ -120,7 +116,7 @@
     .h4 Modelos matemáticos
     p El propósito del modelo matemático, es el de ser una representación simplificada de la realidad, para imitar las características relevantes del sistema que se analiza. A través de modelos matemáticos, los fenómenos del mundo real se traducen a un mundo conceptual, el cual inicia observando los fenómenos, con la aplicación de un modelo matemático y prediciendo su comportamiento mediante simulación. 
     p Ahora bien, existen dos categorías principales de modelado matemático: el #[b modelado teórico] y el #[b modelado experimental].
-
+    p A continuación, se presenta cada uno de estos modelos, con sus respectivos ejemplos.
     .BGIMG02.p-4.mb-4(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.justify-content-center

@@ -22,7 +22,6 @@
           .py-md-5.p-4(titulo="Tecnologías operativas" :icono="require('@/assets/curso/tema4/img02.svg')")
             .row.justify-content-center
               .col-lg-7.order-lg-1.order-2
-                .h4 Tecnologías operativas
                 p #[em Big data] operacional tiene que ver con los datos normales que se generan en el día a día. Estos podrían ser: las transacciones en línea, las redes sociales o los datos de una organización en particular, entre otros. Incluso se puede considerar que se trata de un tipo de datos sin procesar que se utiliza para alimentar las tecnologías analíticas de #[em Big data].
                 p Algunos ejemplos de tecnologías operativas de #[em Big data] son los siguientes:
                 ul.lista-ul--color
@@ -43,7 +42,6 @@
           .py-md-5.p-4(titulo="Tecnologías analíticas" :icono="require('@/assets/curso/tema4/img03.svg')")
             .row.justify-content-center
               .col-lg-7.order-lg-1.order-2
-                .h4 Tecnologías analíticas
                 p #[em Big data] analítico se refiere a la parte donde el rendimiento real entra en escena y las decisiones comerciales cruciales en tiempo real, se toman mediante el análisis de #[em Big data] operativo. 
                 p Algunos ejemplos de tecnologías analíticas de #[em Big data] son los siguientes:
                 ul.lista-ul--color

@@ -110,31 +110,30 @@ export default {
     {
       tema: 'Uso de tecnologías para el análisis de grandes volúmenes de datos',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022, 27 de junio). Técnicas para el análisis de datos [video]. Youtube.',
-      tipo: 'Artículo',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022, 27 de junio). <em>Técnicas para el análisis de datos</em> [video]. Youtube.',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=pjTI4UOgkM8',
     },
     {
       tema: 'Uso de tecnologías para el análisis de grandes volúmenes de datos',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2022, 5 de abril). Analítica de datos [video]. Youtube.',
-      tipo: 'Artículo',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=bXdteqmjs2o',
     },
     {
       tema: 'Uso de tecnologías para el análisis de grandes volúmenes de datos',
       referencia:
-        'Sánchez Bracho, M., et al., (2021). Técnicas e instrumentos de recolección de información: análisis y procesamiento realizado por el investigador cualitativo. UISRAEL Revista Científica, 8(1), 107-121.',
+        'Sánchez Bracho, M., et al., (2021). Técnicas e instrumentos de recolección de información: análisis y procesamiento realizado por el investigador cualitativo. <em>UISRAEL Revista Científica</em>, 8(1), 107-121.',
       tipo: 'Artículo',
       link: 'https://doi.org/10.35290/rcui.v8n1.2021.400',
     },
     {
       tema: 'Uso de tecnologías para el análisis de grandes volúmenes de datos',
       referencia:
-        'Hernández-Leal, et al. (2017). Big Data: una exploración de investigaciones, tecnologías y casos de aplicación. TecnoLógicas, 20(39), 17-24.',
+        'Hernández-Leal, et al. (2017). Big Data: una exploración de investigaciones, tecnologías y casos de aplicación. <em>TecnoLógicas</em>, 20(39), 17-24.',
       tipo: 'Artículo',
-      link:
-        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0123-77992017000200002&lng=en&tlng=es',
+      link: 'https://www.redalyc.org/journal/3442/344251476001/html/',
     },
   ],
   glosario: [
@@ -192,16 +191,17 @@ export default {
   referencias: [
     {
       referencia:
-        'Camargo Vega, et al. (2015). Conociendo Big Data. Revista Facultad de Ingeniería, 24(38), 63-77.',
+        'Camargo Vega, et al. (2015). Conociendo Big Data. <em>Revista Facultad de Ingeniería</em>, 24(38), 63-77.',
+      link: 'https://www.redalyc.org/pdf/4139/413940775006.pdf',
     },
     {
       referencia:
-        'Martínez, R. (2017). Cuestiones de ética jurídica al abordar proyectos de Big Data. El contexto del Reglamento general de protección de datos. Dilemata, 24,  151-164.',
+        'Martínez, R. (2017). Cuestiones de ética jurídica al abordar proyectos de Big Data. El contexto del Reglamento general de protección de datos. <em>Dilemata</em>, 24,  151-164.',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6066833',
     },
     {
       referencia:
-        'Microsoft Learn. (2022). Especificación de categorías de datos en Power BI Desktop.',
+        'Microsoft Learn. (2022). <em>Especificación de categorías de datos en Power BI Desktop</em>.',
       link:
         'https://docs.microsoft.com/es-es/power-bi/transform-model/desktop-data-categorization',
     },

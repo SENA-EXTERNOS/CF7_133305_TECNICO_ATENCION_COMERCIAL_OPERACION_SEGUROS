@@ -57,16 +57,17 @@
 
     .h4 Población y muestra
     p En investigación, una población no siempre se refiere a personas. Puede significar un grupo que contiene elementos de cualquier cosa que se desee estudiar, como objetos, eventos, organizaciones, países, especies, organismos, etc. 
-    p A continuación, se presentan las definiciones de población y muestras con ejemplos comparativos.
+    p.mb-5 A continuación, se presentan las definiciones de población y muestras con ejemplos comparativos.
 
     .row.justify-content-center.mb-4
       .col-xl-5.col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .BGR04A.p-5
-            .row.justify-content-center
+            .row.justify-content-center.pb-5.px-4
               .col-10
-                img(src='@/assets/curso/tema3/img08.svg' alt='AvatarTop')
+                figure
+                  img(src='@/assets/curso/tema3/img08.svg' alt='AvatarTop')
           .tarjetas-up_card.BGR05.p-sm-3.p-2
             .title.d-flex.align-items-center.mb-md-4.mb-3
               span
@@ -78,7 +79,7 @@
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .BGR04A.p-5
-            .row.justify-content-center
+            .row.justify-content-center.pb-5.px-4
               .col-8
                 img(src='@/assets/curso/tema3/img09.svg' alt='AvatarTop')
           .tarjetas-up_card.BGR05.p-sm-3.p-2
@@ -95,7 +96,7 @@
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .BGR04A.p-5
-              .row.justify-content-center
+              .row.justify-content-center.pb-5.px-4
                 .col-10
                   img(src='@/assets/curso/tema3/img10.svg' alt='AvatarTop')
             .tarjetas-up_card.BGR05.p-sm-3.p-2
@@ -112,7 +113,7 @@
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .BGR04A.p-5
-              .row.justify-content-center
+              .row.justify-content-center.pb-5.px-4
                 .col-8
                   img(src='@/assets/curso/tema3/img11.svg' alt='AvatarTop')
             .tarjetas-up_card.BGR05.p-sm-3.p-2
@@ -129,7 +130,7 @@
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .BGR04A.p-5
-              figure
+              figure.pb-5.px-4
                 img(src='@/assets/curso/tema3/img12.svg' alt='AvatarTop')
             .tarjetas-up_card.BGR05.p-sm-3.p-2
               .title.d-flex.align-items-center.mb-md-4.mb-3
@@ -146,7 +147,7 @@
             .indicador--hover(v-if="mostrarIndicador")
             .BGR04A.p-5
               .row.justify-content-center
-                .col-8
+                .col-8.pb-5.px-4
                   img(src='@/assets/curso/tema3/img13.svg' alt='AvatarTop')
             .tarjetas-up_card.BGR05.p-sm-3.p-2
               .title.d-flex.align-items-center.mb-md-4.mb-3

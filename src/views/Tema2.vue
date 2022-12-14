@@ -21,7 +21,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Figura 1
-          span #[em Tecnologías de la Información y la Comunicación]
+          span Tecnologías de la Información y la Comunicación
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema2/img02.svg")
 
@@ -133,7 +133,7 @@
               p.mb-0 Se debe garantizar un uso efectivo del #[em software] y #[em hardware], en la implementación de las TIC.
       
       .h4 Paquetes integrados
-      p Dentro de las herramientas tecnológicas, también se pueden encontrar los paquetes integrados, los cuales se refieren a una colección de #[em software] especialmente creado para trabajar en programas estrechamente relacionados. Se utilizan en ordenadores personales donde los programas más utilizados y similares se agrupan en una aplicación en forma de suite. Uno de los ejemplos más conocidos de un paquete de #[em software] integrado es Microsoft Office, que comprende programas utilizados en un entorno de oficina.
+      p Dentro de las herramientas tecnológicas, también se pueden encontrar los #[b paquetes integrados], los cuales se refieren a una colección de #[em software] especialmente creado para trabajar en programas estrechamente relacionados. Se utilizan en ordenadores personales donde los programas más utilizados y similares se agrupan en una aplicación en forma de #[em suite]. Uno de los ejemplos más conocidos de un paquete de #[em software] integrado es Microsoft Office, que comprende programas utilizados en un entorno de oficina.
       p A continuación, se presentan algunos ejemplos de los paquetes integrados.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
@@ -141,15 +141,13 @@
         .py-md-5.p-4(titulo="<em>Software</em> integrado" :icono="require('@/assets/curso/tema2/img16.svg')")
           .row.justify-content-center
             .col-lg-7.order-lg-1.order-2
-              .h4 #[em Software] integrado
               p.mb-0 Se cree, en gran medida, que el #[em software] integrado es solo #[em software] de oficina, pero ese no es el caso. El #[em software] de gestión industrial y las bases de datos, entran en la categoría de #[em software] integrado, donde los resultados de varios programas están estrechamente relacionados y pueden integrarse entre sí, con entornos similares. La informática se ha revolucionado con el uso de #[em software] integrado, debido al hecho que el #[em software] está interconectado con poca o ninguna posibilidad de error de información, porque los archivos se pueden importar sin necesidad de conversión y sin conflicto de formatos.
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema2/img16.png")
         .py-md-5.p-4(titulo="Ejemplos" :icono="require('@/assets/curso/tema2/img17.svg')")
           .row.justify-content-center
             .col-lg-7.order-lg-1.order-2
-              .h4 Ejemplos
-              p Adobe InDesign, Microsoft Office o Star Office son algunos ejemplos de #[em software] integrado donde la salida de programas como una hoja de cálculo o un programa de gráficos, se puede compartir entre aplicaciones. Un paquete integrado es un programa único que proporciona la funcionalidad de un procesador de textos, una hoja de cálculo, un administrador de bases de datos y más. Ejemplos:
+              p #[b Adobe InDesign, Microsoft Office o Star Office] son algunos ejemplos de #[em software] integrado donde la salida de programas como una hoja de cálculo o un programa de gráficos, se puede compartir entre aplicaciones. Un paquete integrado es un programa único que proporciona la funcionalidad de un procesador de textos, una hoja de cálculo, un administrador de bases de datos y más. Ejemplos:
               ul.lista-ul--color
                 li
                   <i class="fas fa-circle" style="color:#54AA13; font-size: x-small"></i>
@@ -159,10 +157,9 @@
                   | CorelDRAW.
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema2/img17.png")
-        .py-md-5.p-4(titulo="Suite de <em>software</em>" :icono="require('@/assets/curso/tema2/img18.svg')")
+        .py-md-5.p-4(titulo="<em>Suite</em> de <em>software</em>" :icono="require('@/assets/curso/tema2/img18.svg')")
           .row.justify-content-center
             .col-lg-7.order-lg-1.order-2
-              .h4 Suite de #[em software]
               p.mb-0 Es una colección de programas para realizar procesamiento de textos, análisis de hojas de cálculo, administración de bases de datos, gráficos de presentación y más. Algunos ejemplos:
               ul.lista-ul--color
                 li
@@ -170,10 +167,10 @@
                   | Microsoft Office.
                 li
                   <i class="fas fa-circle" style="color:#54AA13; font-size: x-small"></i>
-                  | Corel WordPerfect Suite.
+                  p.mb-0 Corel WordPerfect Suite.
                 li
                   <i class="fas fa-circle" style="color:#54AA13; font-size: x-small"></i>
-                  | Lotus SmartSuite.
+                  p.mb-0 Lotus SmartSuite.
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema2/img18.png")
 
@@ -199,7 +196,7 @@
                 img(src='@/assets/curso/tema2/img20.png')
             .tarjeta.color-acento-contenido.p-3(x="13%" y="40%" numero="1")
               .h5.text-white.mb-2 Office 365
-              p.text-white.mb-0 Office 365 es una de las suites más completas en cuanto a características y funcionalidad, se escala de pequeñas a grandes empresas y se integra con múltiples plataformas. 
+              p.text-white.mb-0 Office 365 es una de las #[em suites] más completas en cuanto a características y funcionalidad, se escala de pequeñas a grandes empresas y se integra con múltiples plataformas. 
             .tarjeta.color-acento-contenido.p-3(x="31%" y="40%" numero="2")
               .h5.text-white.mb-2 Gmail
               p.text-white.mb-0 Las funciones de seguridad de Gmail, incluyen autenticación de factores opcionales y administración de autorización de dispositivos. Sin embargo, es posible que el contenido del correo electrónico no sea totalmente privado, porque las condiciones de servicio de Gmail se agrupan con las condiciones de servicio de toda la cuenta de Google. Una versión de nivel empresarial está disponible como parte de G Suite (anteriormente llamada Google Apps for Work).
@@ -252,7 +249,7 @@
               img(src="@/assets/curso/tema2/img23.png")
           .row.justify-content-center(titulo="Industria 4.0 para la fabricación sostenible")
             .col-lg-5.order-lg-1.order-2
-              p.mb-0 Un tema de tendencia en la fabricación sostenible, ha realizado un progreso fenomenal en los últimos años. La fabricación sostenible busca integrar en el sector industrial los valores fundamentales del desarrollo sostenible. Contribuye a una mayor eficiencia ambiental, social y económica. Industria 4.0 es una filosofía de socio tecnología que incluye la interacción de aspectos tecnológicos, sociales y organizacionales, mediante la incorporación de tecnologías de digitalización Big data, estructuras ciberfísicas, realidad virtual y computación en la nube.
+              p.mb-0 Un tema de tendencia en la fabricación sostenible, ha realizado un progreso fenomenal en los últimos años. La fabricación sostenible busca integrar en el sector industrial los valores fundamentales del desarrollo sostenible. Contribuye a una mayor eficiencia ambiental, social y económica. Industria 4.0 es una filosofía de socio tecnología que incluye la interacción de aspectos tecnológicos, sociales y organizacionales, mediante la incorporación de tecnologías de digitalización #[em Big data], estructuras ciberfísicas, realidad virtual y computación en la nube.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema2/img24.png")
           .row.justify-content-center(titulo="Orientado al consumidor")
