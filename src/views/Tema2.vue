@@ -20,8 +20,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 1
-          span Tecnologías de la Información y la Comunicación
+          p.mb-0 <b>Figura 1</b> <br> <i>Tecnologías de la Información y las Comunicaciones</i>
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema2/img02.svg")
 
@@ -54,7 +53,7 @@
                   .col-9
                     img(src="@/assets/curso/tema2/img06.svg")
               .col
-                p.mb-0 Habilitar una infraestructura y servicios de las TIC para apoyar a los estudiantes, educadores, gerentes y administradores, se necesita una flexibilidad incorporada para que los usuarios tengan una gama de formas y lugares en los que pueden llevar a cabo sus tareas diarias.
+                p.mb-0 Habilitar una infraestructura y servicios de las TIC para apoyar a los estudiantes, educadores, gerentes y administradores; se incluye una flexibilidad incorporada para que los usuarios obtengan un repertorio de estructuras y lugares, en los que puedan llevar a cabo sus tareas diarias.
             .row.justify-content-center.align-items-center.pt-4(numero="4" titulo="Uso de las TIC para gestionar datos y mejorar la eficiencia")
               .col-lg-2.col-4.mb-lg-0.mb-4
                 .row.justify-content-center
@@ -135,7 +134,7 @@
       .h4 Paquetes integrados
       p Dentro de las herramientas tecnológicas, también se pueden encontrar los #[b paquetes integrados], los cuales se refieren a una colección de #[em software] especialmente creado para trabajar en programas estrechamente relacionados. Se utilizan en ordenadores personales donde los programas más utilizados y similares se agrupan en una aplicación en forma de #[em suite]. Uno de los ejemplos más conocidos de un paquete de #[em software] integrado es Microsoft Office, que comprende programas utilizados en un entorno de oficina.
       p A continuación, se presentan algunos ejemplos de los paquetes integrados.
-
+    P.mb-5 A continuación, se presentan algunos aspectos claves sobre los paquetes integrados:
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       TabsB.color-acento-contenido
         .py-md-5.p-4(titulo="<em>Software</em> integrado" :icono="require('@/assets/curso/tema2/img16.svg')")
@@ -182,10 +181,10 @@
         img(src="@/assets/curso/tema2/img19.png")
       .col-lg-6
         p Dado que la fuerza laboral se vuelve cada vez más móvil y requiere acceso a la información en cualquier momento y en cualquier lugar, incluso las herramientas más utilizadas, como el correo electrónico, ya no satisfacen esas necesidades de manera eficiente.
-        p.mb-0 La nube ha cambiado de una forma sin precedentes, la manera en que las organizaciones colaboran, tanto interna como externamente. En la nube, la colaboración puede ocurrir en tiempo real. 
+        p.mb-0 La nube ha cambiado, ostensiblemente, la manera en que las organizaciones colaboran, tanto interna como externamente. En la nube, la colaboración puede ocurrir en tiempo real. 
 
-    p A continuación, se presentan las herramientas colaborativas y de acceso a la nube.
-    
+    p.mb-5 A continuación, se presentan las herramientas colaborativas y de acceso a la nube:
+
     .BGR01.p-4.mb-5
       .h4.text-center Herramientas colaborativas y de acceso a la nube
       .row.justify-content-center
@@ -205,7 +204,7 @@
               p.text-white.mb-0 Los niveles de Webex se basan en la cantidad de personas incluidas en la reunión en lugar de la cantidad de reuniones, con una versión gratuita disponible para reuniones con hasta tres participantes. Funciona en múltiples plataformas de escritorio y móviles. Las opciones de seguridad incluyen el cifrado de datos, de extremo a extremo.
             .tarjeta.color-acento-contenido.p-3(x="66%" y="40%" numero="4")
               .h5.text-white.mb-2 Yahoo Mail
-              p.text-white.mb-0 Sin embargo, noticias recientes sobre una brecha masiva que comprometió 500 millones de cuentas de usuarios, arrojaron dudas sobre las capacidades de seguridad de la empresa.
+              p.text-white.mb-0 Es uno de los mayores proveedores de servicios de correo electrónico a nivel mundial. Ha sido también uno de los mayores buscadores en línea, usado por miles de usuarios, revolucionando las posibilidades de acceso a datos e información en Internet.
             .tarjeta.color-acento-contenido.p-3(x="85%" y="40%" numero="5")
               .h5.text-white.mb-2 Yammer
               p.text-white.mb-0 También se pueden agregar fácilmente colaboradores externos, como proveedores.

@@ -12,7 +12,7 @@
         img(src="@/assets/curso/tema4/img01.png")
       .col-lg-6
         p La tecnología #[em Big data] se puede definir como una utilidad de #[em software] que está diseñada para analizar, procesar y extraer la información de conjuntos de datos, extremadamente complejos y grandes que el #[em software] de procesamiento de datos tradicional, nunca podría manejar.
-        p.mb-0 La tecnología #[em Big data] se clasifica en dos tipos: #[b tecnologías operativas de #[em Big data] y tecnologías analíticas de #[em Big data]].
+        p.mb-0 La tecnología #[em Big data] se clasifica en dos tipos: #[b tecnologías operativas de #[em Big data]] y #[b tecnologías analíticas de #[em Big data]].
 
     p A continuación, se presenta cada una de las tecnologías de #[em Big data].
 
@@ -122,7 +122,7 @@
 
       .row.justify-content-center.mb-4(data-aos="flip-up")
         .col-lg-10.cajon.color-secundario.p-4
-          p.mb-0 Ha finalizado el estudio de este recurso educativo. Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para hacerlo, diríjase al menú principal, donde encontrará la síntesis, material complementario, entre otros. Adicional, lo invitamos a desarrollar la actividad didáctica para reforzar los conceptos estudiados en el componente formativo.
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
             
 </template>
 
