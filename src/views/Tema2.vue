@@ -133,8 +133,8 @@
       
       .h4 Paquetes integrados
       p Dentro de las herramientas tecnológicas, también se pueden encontrar los #[b paquetes integrados], los cuales se refieren a una colección de #[em software] especialmente creado para trabajar en programas estrechamente relacionados. Se utilizan en ordenadores personales donde los programas más utilizados y similares se agrupan en una aplicación en forma de #[em suite]. Uno de los ejemplos más conocidos de un paquete de #[em software] integrado es Microsoft Office, que comprende programas utilizados en un entorno de oficina.
-      p A continuación, se presentan algunos ejemplos de los paquetes integrados.
-    P.mb-5 A continuación, se presentan algunos aspectos claves sobre los paquetes integrados:
+
+    P.my-5 A continuación, se presentan algunos aspectos claves sobre los paquetes integrados:
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       TabsB.color-acento-contenido
         .py-md-5.p-4(titulo="<em>Software</em> integrado" :icono="require('@/assets/curso/tema2/img16.svg')")

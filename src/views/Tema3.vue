@@ -60,7 +60,7 @@
     p.mb-5 A continuación, se presentan las definiciones de población y muestras con ejemplos comparativos.
 
     .row.justify-content-center.mb-4
-      .col-xl-5.col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
+      .col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .BGR04A.p-5
@@ -75,7 +75,7 @@
                 i.fas.fa-caret-down.fa-2x.me-3
               h4.mb-0 Población
             p.mb-0 Una población es todo el grupo sobre el que se desea sacar conclusiones.
-      .col-xl-5.col-lg-6.col-md-10(data-aos="fade-left")
+      .col-lg-6.col-md-10(data-aos="fade-left")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .BGR04A.p-5
@@ -92,7 +92,7 @@
 
     .BGIMG05.px-md-5.px-4 
       .row.justify-content-center.mb-4
-        .col-xl-5.col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
+        .col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .BGR04A.p-5
@@ -109,7 +109,7 @@
               p Anuncios de empleos de Ingeniería en sistemas, en Bogotá.
               .h4 Muestra
               p.mb-0 Los 10 mejores resultados de búsqueda de anuncios de empleos de Ingeniería en sistemas, Bogotá el 1 de mayo de 2022.
-        .col-xl-5.col-lg-6.col-md-10.mb-4(data-aos="fade-left")
+        .col-lg-6.col-md-10.mb-4(data-aos="fade-left")
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .BGR04A.p-5
@@ -126,7 +126,7 @@
               p Canciones del Festival de la Canción de América.
               .h4 Muestra
               p.mb-0 Canciones ganadoras del Festival de la Canción de América, interpretadas en inglés.
-        .col-xl-5.col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
+        .col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .BGR04A.p-5
@@ -142,7 +142,7 @@
               p Estudiantes de pregrado en Colombia.
               .h4 Muestra
               p.mb-0 300 estudiantes de pregrado de tres universidades colombianas, que se ofrecen como voluntarios para su estudio de investigación en psicología.
-        .col-xl-5.col-lg-6.col-md-10.mb-4(data-aos="fade-left")
+        .col-lg-6.col-md-10.mb-4(data-aos="fade-left")
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .BGR04A.p-5
