@@ -87,33 +87,33 @@
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
         SlyderF(columnas="col-md-6 col-xl-4")
-          .BGR04B.p-4
+          .BGR04.h-100.p-4
             figure.mb-3
               img(src='@/assets/curso/tema4/img05.svg')
             h2.text-center Extraer, transformar y cargar
             p.text-center.mb-0 Las copias de conjuntos de datos de fuentes dispares se recopilan, armonizan y cargan en un almacén de datos o base de datos.
-          .BGR04B.p-4
+          .BGR04.h-100.p-4
             figure.mb-3
               img(src='@/assets/curso/tema4/img06.svg')
             h2.text-center Extraer, cargar y transformar
             p.text-center.mb-0 Los datos se cargan tal cual en un sistema de #[em Big data] y se transforman en un momento posterior para usos analíticos particulares.
-          .BGR04B.p-4
+          .BGR04.h-100.p-4
             figure.mb-3
               img(src='@/assets/curso/tema4/img07.svg')
             h2.text-center Captura de datos modificados
             p.text-center.mb-0 Identifica los cambios de datos en las bases de datos en tiempo real y los aplica a un almacén de datos u otros repositorios.
-          .BGR04B.p-4
+          .BGR04.h-100.p-4
             figure.mb-3
               img(src='@/assets/curso/tema4/img08.svg')
             h2.text-center Replicación de datos
             p.text-center.mb-0 Los datos en una base de datos se replican en otras bases de datos, para mantener la información sincronizada para usos operativos y para respaldo.
-          .BGR04B.p-4
+          .BGR04.h-100.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema4/img09.svg')
             h2.text-center Virtualización de datos
             p.text-center.mb-0 Los datos de diferentes sistemas se combinan, virtualmente, para crear una vista unificada en lugar de cargar datos en un nuevo repositorio.
-          .BGR04B.p-4
+          .BGR04.h-100.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema4/img10.svg')

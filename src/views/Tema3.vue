@@ -21,34 +21,34 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       SlyderF.mb-5(columnas="col-md-6 col-xl-4")
-        .BGR04.p-4
+        .BGR04.h-100.p-4
           figure.mb-3
             img(src='@/assets/curso/tema3/img02.svg')
           h2.text-center Análisis descriptivo
           p.text-center.mb-0 Implica recopilar, interpretar, analizar y resumir datos, para presentarlos en forma de cuadros, gráficos y tablas.
-        .BGR04.p-4
+        .BGR04.h-100.p-4
           .row.justify-content-center.mb-3
             .col-10
               img(src='@/assets/curso/tema3/img03.svg')
           h2.text-center Análisis inferencial
           p.text-center.mb-0 Se centra en sacar conclusiones significativas, sobre la base de los datos analizados.
-        .BGR04.p-4
+        .BGR04.h-100.p-4
           figure.mb-3
             img(src='@/assets/curso/tema3/img04.svg')
           h2.text-center Análisis predictivo
           p.text-center.mb-0 Es un tipo de análisis estadístico, que analiza datos para derivar tendencias pasadas y predecir eventos futuros sobre la base de ellas.
-        .BGR04.p-4
+        .BGR04.h-100.p-4
           figure.mb-3
             img(src='@/assets/curso/tema3/img05.svg')
           h2.text-center Análisis prescriptivo
           p.text-center.mb-0 Lleva a cabo el análisis de datos y prescribe el mejor curso de acción basado en los resultados.
-        .BGR04.p-4
+        .BGR04.h-100.p-4
           .row.justify-content-center.mb-3
             .col-10
               img(src='@/assets/curso/tema3/img06.svg')
           h2.text-center Análisis exploratorio de datos
           p.text-center.mb-0 Es similar al análisis inferencial, pero la diferencia es que implica explorar las asociaciones de datos desconocidos.
-        .BGR04.p-4
+        .BGR04.h-100.p-4
           .row.justify-content-center.mb-3
             .col-11
               img(src='@/assets/curso/tema3/img07.svg')
@@ -63,7 +63,7 @@
       .col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          .BGR04A.p-5
+          .BGR04.h-100.p-5
             .row.justify-content-center.pb-5.px-4
               .col-10
                 figure
@@ -78,7 +78,7 @@
       .col-lg-6.col-md-10(data-aos="fade-left")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          .BGR04A.p-5
+          .BGR04.h-100.p-5
             .row.justify-content-center.pb-5.px-4
               .col-8
                 img(src='@/assets/curso/tema3/img09.svg' alt='AvatarTop')
@@ -95,7 +95,7 @@
         .col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
-            .BGR04A.p-5
+            .BGR04.h-100.p-5
               .row.justify-content-center.pb-5.px-4
                 .col-10
                   img(src='@/assets/curso/tema3/img10.svg' alt='AvatarTop')
@@ -112,7 +112,7 @@
         .col-lg-6.col-md-10.mb-4(data-aos="fade-left")
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
-            .BGR04A.p-5
+            .BGR04.h-100.p-5
               .row.justify-content-center.pb-5.px-4
                 .col-8
                   img(src='@/assets/curso/tema3/img11.svg' alt='AvatarTop')
@@ -129,7 +129,7 @@
         .col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
-            .BGR04A.p-5
+            .BGR04.h-100.p-5
               figure.pb-5.px-4
                 img(src='@/assets/curso/tema3/img12.svg' alt='AvatarTop')
             .tarjetas-up_card.BGR05.p-sm-3.p-2
@@ -145,7 +145,7 @@
         .col-lg-6.col-md-10.mb-4(data-aos="fade-left")
           .tarjetas-up(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
-            .BGR04A.p-5
+            .BGR04.h-100.p-5
               .row.justify-content-center
                 .col-8.pb-5.px-4
                   img(src='@/assets/curso/tema3/img13.svg' alt='AvatarTop')
@@ -170,13 +170,13 @@
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="BGR06")
           div(titulo="Variación de las estadísticas")
-            p Se puede plantear que la edad promedio de los compañeros de clase es de 25 años. Se podría suponer que la edad promedio de todos, en su año, es de 24, 25 o 26 años. Se podría suponer que la edad promedio de otras universidades, en su área, es la misma. Incluso, se podría adivinar que esa es la edad promedio de los estudiantes universitarios en Colombia. Puede que no sean malas conjeturas, pero son estadísticas porque no se les preguntó a todos.
+            p Se puede plantear que la edad promedio de los compañeros de clase es de 25 años. Se podría suponer que la edad promedio de todos, en su año, es de 24, 25 o 26 años. Se podría suponer que la edad promedio de otras universidades, en su área, es la misma. Incluso, se podría adivinar que esa es la edad promedio de los estudiantes universitarios en Colombia. Puede que no sean malas conjeturas, pero son estadísticas ya que no se les preguntó a todos.
             p.mb-0 En estadística, a diferencia de su uso general en matemáticas, un parámetro es cualquier cantidad medida de una población estadística que resume o describe un aspecto de la población, como una media o una desviación estándar. Si una población sigue exactamente una distribución conocida y definida, por ejemplo, la distribución normal, entonces se puede medir un pequeño conjunto de parámetros que describe completamente la población y se puede considerar que define una distribución de probabilidad, con el fin de extraer muestras de esta población.
           div(titulo="Distribuciones parametrizadas")
             p Al suponer que se tiene una familia indexada de distribuciones, si el índice es también un parámetro de los miembros de la familia, entonces la familia es una familia parametrizada. Entre las familias de distribuciones parametrizadas, se encuentran las distribuciones normales, las distribuciones de #[em Poisson], las distribuciones binomiales y la familia de distribuciones exponenciales. Por ejemplo, la familia de distribuciones normales tiene dos parámetros, la media y la varianza: si se especifican, se conoce exactamente la distribución. La familia de distribuciones de chi-cuadrado, se puede indexar por el número de grados de libertad: el número de grados de libertad es un parámetro para las distribuciones y, por lo tanto, la familia se parametriza.
           div(titulo="Medición de parámetros")
             p En la inferencia estadística, a veces se considera que los parámetros no son observables y, en este caso, la tarea del estadístico es estimar o inferir lo que pueda sobre el parámetro, en función de una muestra aleatoria de observaciones tomadas de la población total. Los estimadores de un conjunto de parámetros de una distribución específica, con frecuencia se miden para una población, bajo el supuesto que la población está (al menos aproximadamente) distribuida, de acuerdo con esa distribución de probabilidad específica. 
-            p.mb-0 En otras situaciones, los parámetros pueden fijarse por la naturaleza del procedimiento de muestreo utilizado o el tipo de procedimiento estadístico que se lleva a cabo (por ejemplo, el número de grados de libertad en una prueba de chi-cuadrado de Pearson). Incluso, si no se especifica una familia de distribuciones, las cantidades como la media y la varianza, generalmente, pueden considerarse como parámetros estadísticos de la población, y los procedimientos estadísticos aún pueden intentar hacer inferencias sobre dichos parámetros de la población.
+            p.mb-0 En otras situaciones, los parámetros pueden fijarse por la naturaleza del procedimiento de muestreo utilizado o el tipo de procedimiento estadístico que se lleva a cabo (por ejemplo, el número de grados de libertad en una prueba de chi-cuadrado de #[em Pearson]). Incluso, si no se especifica una familia de distribuciones, las cantidades como la media y la varianza, generalmente, pueden considerarse como parámetros estadísticos de la población, y los procedimientos estadísticos aún pueden intentar hacer inferencias sobre dichos parámetros de la población.
           div(titulo="Tipos de parámetros")
             p Los parámetros reciben nombres apropiados para sus roles, incluidos los siguientes:
             ul.lista-ul--color
@@ -263,7 +263,7 @@
                   .col-9
                     img(src="@/assets/curso/tema3/img23.svg")
               .col
-                p.mb-0 El dominio de comparación es la región del espacio ambiental y el modelo, y el espacio de parámetros del sistema físico dentro del cual se medirán las respuestas del experimento y se realizarán las predicciones del modelo.
+                p.mb-0 El dominio de comparación es la región del espacio ambiental y el modelo, también el espacio de parámetros del sistema físico dentro del cual se medirán las respuestas del experimento y se realizarán las predicciones del modelo.
             .row.justify-content-center.align-items-center.pt-4(numero="9" titulo="Especificar los experimentos de calibración")
               .col-lg-2.col-4.mb-lg-0.mb-4
                 .row.justify-content-center

@@ -131,7 +131,7 @@ export default {
     {
       tema: 'Uso de tecnologías para el análisis de grandes volúmenes de datos',
       referencia:
-        'Hernández, E., Duque, N. & Moreno, J. (2017). Big Data: una exploración de investigaciones, tecnologías y casos de aplicación. <em>TecnoLógicas</em>, 20(39), 17-24.',
+        'Hernández, E., Duque, N. & Moreno, J. (2017). Big Data: una exploración de investigaciones, tecnologías y casos de aplicación. <em>Tecnológicas</em>, 20(39), 17-24.',
       tipo: 'Artículo',
       link: 'https://www.redalyc.org/journal/3442/344251476001/html/',
     },
@@ -175,7 +175,7 @@ export default {
     {
       termino: 'Star Office',
       significado:
-        'es una suite integrada que incluye los aplicativos de procesamiento de textos, hojas de cálculo, presentaciones, dibujo vectorial y bases de datos.',
+        'es una <em>suite</em> integrada que incluye los aplicativos de procesamiento de textos, hojas de cálculo, presentaciones, dibujo vectorial y bases de datos.',
     },
     {
       termino: 'Stata',
@@ -204,6 +204,39 @@ export default {
         'Microsoft Learn. (2022). <i>Especificación de categorías de datos en Power BI Desktop</i>. Learn.',
       link:
         'https://docs.microsoft.com/es-es/power-bi/transform-model/desktop-data-categorization',
+    },
+    {
+      referencia:
+        'González, J. (2015). <em>Utilización de las bases de datos relaciones en el sistema de gestión y almacenamiento de datos</em>. Ediciones Paraninfo. Recuperado de',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=hPV2EAAAQBAJ&oi=fnd&pg=PR7&dq=Gonz%C3%A1lez,+J.+(2015).+Utilizaci%C3%B3n+de+las+bases+de+datos+relaciones+en+el+sistema+de+gesti%C3%B3n+y+almacenamiento+de+datos.+Ediciones+Paraninfo&ots=ZtY267EbA0&sig=Hk_nrx8WkcwXmuPRvl9LrX59_nE',
+    },
+    {
+      referencia:
+        'Joyanes, L. (2019). <em>Inteligencia de negocios y analítica de datos: una visión global de business intelligence & analytics</em>. Alfaomega. Recuperado de',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=ifR5EAAAQBAJ&oi=fnd&pg=PR7&dq=Joyanes,+L.+(2019).+Inteligencia+de+negocios+y+anal%C3%ADtica+de+datos:+una+visi%C3%B3n+global+de+business+intelligence+%26+analytics.+Alfaomega.&ots=bBmhTHsEZf&sig=t_2gPGqAsyEGeOIbTT7s9aAbDRg',
+    },
+    {
+      referencia:
+        'Luis, A. (2018). <em>Industria 4.0: la cuarta revolución industrial</em>. Alfaomega. Recuperado de',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=QyN1EAAAQBAJ&oi=fnd&pg=PR7&dq=Luis,+A.+(2018).+Industria+4.0:+la+cuarta+revoluci%C3%B3n+industrial.+Alfaomega.&ots=kiDnyweCIi&sig=dYPi6HoPjxehqu_eEprMkIY9oL8',
+    },
+    {
+      referencia:
+        'Fernández, R. C. (2018). Ética aplicada a la gestión de datos masivos. <em>In Anales de la Cátedra Francisco Suárez</em> (Vol. 52, pp. 113-129).  Recuperado de',
+      link: 'https://revistaseug.ugr.es/index.php/acfs/article/view/6553/5674',
+    },
+    {
+      referencia:
+        'Calvo, P. (2021). El gobierno ético de los datos masivos. Recuperado de',
+      link: 'https://repositori.uji.es/xmlui/handle/10234/193056',
+    },
+    {
+      referencia:
+        'De Battista, A., Cristaldo, P., Ramos, L., Nunez, J. P., Retamar, S., Bouzenard, D., & Herrera, N. E. (2016, May). Minería de datos aplicada a datos masivos. <em>In XVIII Workshop de Investigadores en Ciencias de la Computación (WICC 2016, Entre Ríos, Argentina)</em>.  Recuperado de',
+      link: 'http://sedici.unlp.edu.ar/handle/10915/52766',
     },
   ],
   creditos: {

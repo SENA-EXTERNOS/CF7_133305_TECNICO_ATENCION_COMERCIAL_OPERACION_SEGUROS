@@ -206,7 +206,7 @@
               img(src="@/assets/curso/tema1/img16.png")
           .row.justify-content-center(titulo="Deductivo, inductivo o flotante")
             .col-lg-4.order-lg-1.order-2
-              p Los modelos deductivos, los cuales están basados en una teoría, suelen ser estructuras lógicas. Los modelos indicativos provienen de hallazgos empíricos de modelos deductivos. Por otro lado, los modelos flotantes no se basan ni en la observación ni en la teoría, se basan puramente en la invocación de la estructura esperada. 
+              p Los modelos deductivos, los cuales están basados en una teoría, suelen ser estructuras lógicas. Los modelos inductivos provienen de hallazgos empíricos de modelos deductivos. Por otro lado, los modelos flotantes no se basan ni en la observación ni en la teoría, se basan puramente en la invocación de la estructura esperada. 
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema1/img17.png")
 

@@ -229,7 +229,7 @@
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema2/img21.svg")
       .col-lg-8
-        p.mb-0 Las tecnologías de Industria 4.0, brindan perspectivas críticas para la innovación futura y el crecimiento empresarial. Se están utilizando tecnologías como la Inteligencia Artificial (IA), Internet de las cosas (IoT), #[em Big data, Machine Learning] (ML) y otras tecnologías avanzadas para implementar la Industria 4.0. Las tecnologías de la Industria 4.0 y las interrelaciones cruciales, a través de tecnologías avanzadas, deberían tener un impacto positivo en el medio ambiente; así pues, la fabricación está estrechamente interrelacionada con los sistemas de información y comunicación, lo que la hace más escalable, competitiva y conocedora. Industria 4.0 proporciona una gama de principios, instrucciones y tecnología para construir fábricas nuevas y existentes, lo que permite a los consumidores elegir diferentes modelos de tasas de producción con robótica escalable, información y tecnología de comunicaciones.
+        p.mb-0 Las tecnologías de la Industria 4.0, brindan perspectivas críticas para la innovación futura y el crecimiento empresarial. Se están utilizando tecnologías como la Inteligencia Artificial (IA), Internet de las cosas (IoT), #[em Big data, Machine Learning] (ML) y otras tecnologías avanzadas para implementar la Industria 4.0. Las tecnologías de la Industria 4.0 y las interrelaciones cruciales, a través de tecnologías avanzadas, deberían tener un impacto positivo en el medio ambiente; así pues, la fabricación está estrechamente interrelacionada con los sistemas de información y comunicación, lo que la hace más escalable, competitiva y conocedora. Industria 4.0 proporciona una gama de principios, instrucciones y tecnología para construir fábricas nuevas y existentes, lo que permite a los consumidores elegir diferentes modelos de tasas de producción con robótica escalable, información y tecnología de comunicaciones.
     
     p A continuación, lo invitamos a conocer más sobre la industria 4.0.
 
@@ -238,7 +238,7 @@
         AcordionA(tipo="a" clase-tarjeta="BGR02")
           .row.justify-content-center(titulo="Beneficios significativos de la Industria 4.0")
             .col-lg-5.order-lg-1.order-2
-              p.mb-0 Los fabricantes han implementado sus planes en innovaciones de Industria 4.0, que ahora están por delante de su competencia. Pueden pasar a la siguiente era de fabricación y entrega, con una automatización modular y efectiva optimizada por la entrada basada en datos, que ofrece un control total del exceso de suministro y el flujo de materiales. Las ventajas de la Industria 4.0 incluyen competitividad y rendimientos mejorados, versatilidad y resiliencia mejoradas y mayor rentabilidad.
+              p.mb-0 Los fabricantes han implementado sus planes en innovaciones de La Industria 4.0, que ahora están por delante de su competencia. Pueden pasar a la siguiente era de fabricación y entrega, con una automatización modular y efectiva optimizada por la entrada basada en datos, que ofrece un control total del exceso de suministro y el flujo de materiales. Las ventajas de la Industria 4.0 incluyen competitividad y rendimientos mejorados, versatilidad y resiliencia mejoradas y mayor rentabilidad.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema2/img22.png")
           .row.justify-content-center(titulo="Requisitos de la Industria 4.0 para el desarrollo de un entorno sostenible")
@@ -248,7 +248,7 @@
               img(src="@/assets/curso/tema2/img23.png")
           .row.justify-content-center(titulo="Industria 4.0 para la fabricación sostenible")
             .col-lg-5.order-lg-1.order-2
-              p.mb-0 Un tema de tendencia en la fabricación sostenible, ha realizado un progreso fenomenal en los últimos años. La fabricación sostenible busca integrar en el sector industrial los valores fundamentales del desarrollo sostenible. Contribuye a una mayor eficiencia ambiental, social y económica. Industria 4.0 es una filosofía de socio tecnología que incluye la interacción de aspectos tecnológicos, sociales y organizacionales, mediante la incorporación de tecnologías de digitalización #[em Big data], estructuras ciberfísicas, realidad virtual y computación en la nube.
+              p.mb-0 Un tema de tendencia en la fabricación sostenible, ha realizado un progreso fenomenal en los últimos años. La fabricación sostenible busca integrar en el sector industrial los valores fundamentales del desarrollo sostenible. Contribuye a una mayor eficiencia ambiental, social y económica. La Industria 4.0 es una filosofía de socio tecnología que incluye la interacción de aspectos tecnológicos, sociales y organizacionales, mediante la incorporación de tecnologías de digitalización #[em Big data], estructuras ciberfísicas, realidad virtual y computación en la nube.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema2/img24.png")
           .row.justify-content-center(titulo="Orientado al consumidor")
