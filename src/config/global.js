@@ -236,7 +236,8 @@ export default {
     {
       referencia:
         'De Battista, A., Cristaldo, P., Ramos, L., Nunez, J. P., Retamar, S., Bouzenard, D., & Herrera, N. E. (2016, May). Minería de datos aplicada a datos masivos. <em>In XVIII Workshop de Investigadores en Ciencias de la Computación (WICC 2016, Entre Ríos, Argentina)</em>.  Recuperado de',
-      link: 'http://sedici.unlp.edu.ar/handle/10915/52766',
+      link:
+        'http://sedici.unlp.edu.ar/bitstream/handle/10915/52766/Documento_completo.pdf?sequence=1&isAllowed=y',
     },
   ],
   creditos: {
